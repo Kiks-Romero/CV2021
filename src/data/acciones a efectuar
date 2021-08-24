@@ -1,0 +1,52 @@
+crear la lista de acercade por medio de un componente llamado listitem.js
+
+crear interaccion de lista acerca de la cual lleve un estado llamado
+selectedPic el cual realiza un render que al seleccionar una skill 
+con un click se visualize una pic referente a la skill 
+
+    componente picSkill
+
+    imports ....
+     class picSkill extends Componente{
+         state {
+             selectedPic: ""
+         }
+
+         _handlePic(){
+             setState : selectedPic
+            <div className="col-md-6">
+                <img src={pictureSkill} alt="logos" /* style="width: 100%;" */ className="mt-5 logo"/>
+            </div>
+         }
+
+        render(){
+            return(
+                {selectedPic
+                ?(imprime la imagen de la skill)
+                    _handlePic(addEventListener(onClick)=(selectedPic))
+                :(imprime la imagen de colage(la actual de todas las skills))
+                    <div className="col-md-6">
+                            <img src={img2} alt="logos" /* style="width: 100%;" */ className="mt-5 logo"/>
+                    </div>
+                }
+            )
+        }
+    }
+    export default picSkill
+
+
+
+
+    function actualizando(props){
+   props.skills.id
+   ?(
+      <div className="col-md-6">
+         imagen por defecto
+      </div>
+   )
+   :(
+      <div className="col-md-6">
+        <img src={img2} alt="logos" /* style="width: 100%;" */ className="mt-5 logo"/>
+      </div>
+   )
+} 

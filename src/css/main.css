@@ -1,0 +1,49 @@
+body{
+    font-family: 'Turret Road', cursive;
+    background: #e8f1f2;
+}
+nav{
+    background: #2f2d2e;
+    color: aqua;
+    text-align: center;
+}
+header{
+    margin-top: 75px;
+}
+.infoHeader{
+    margin-top: 100px;
+}
+.foto img{
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+.formacion{
+    padding-top: 35px;
+}
+.fondo{
+    background: #2970ca;
+}
+.datos{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #e8f1f2;
+}
+.cont{
+    background: #006494;
+}
+footer{
+    background: #13293d;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.logo{
+    width: 80%;
+}
+.picSkill{
+    font-size:300px;
+}
