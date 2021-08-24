@@ -6,6 +6,7 @@ class Footer extends Component{
             <footer>
                 <div className="container text-center">
                     <h3>2021</h3>
+                    <p>Developed with react</p>
                 </div>
             </footer>
         );

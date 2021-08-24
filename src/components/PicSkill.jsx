@@ -12,7 +12,7 @@ function PicSkill(props){
         <div className="col-md-6">
         {props.icon!== "base"
         ?<div className="container text-center datos">
-        <p><FontAwesomeIcon className="picSkill" icon={FUENTE[(props.id)-1]} pulse/></p>
+        <p><FontAwesomeIcon className="picSkill" icon={FUENTE[(props.id)-1]}/></p>
         </div>
         :(props.id===11
             ?<img src={photoshop} alt="logos" /* style="width: 100%;" */ className="mt-5 logo"/>
